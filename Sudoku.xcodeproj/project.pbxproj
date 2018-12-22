@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82015EBA21CAF72D00B5F105 /* HardPuzzle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82015EB921CAF72D00B5F105 /* HardPuzzle.txt */; };
+		82015EBC21CAF78900B5F105 /* AI Escargot Puzzle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82015EBB21CAF78900B5F105 /* AI Escargot Puzzle.txt */; };
+		82015EC421CDEB6A00B5F105 /* MedPuzzle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82015EC321CDEB6900B5F105 /* MedPuzzle.txt */; };
 		826CD41A2194C8A000A0FB37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4192194C8A000A0FB37 /* AppDelegate.m */; };
 		826CD41C2194C8A000A0FB37 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 826CD41B2194C8A000A0FB37 /* GameScene.sks */; };
 		826CD41E2194C8A000A0FB37 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 826CD41D2194C8A000A0FB37 /* Actions.sks */; };
@@ -17,6 +20,14 @@
 		826CD42C2194C8A100A0FB37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD42B2194C8A100A0FB37 /* main.m */; };
 		826CD4372194C8A100A0FB37 /* SudokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4362194C8A100A0FB37 /* SudokuTests.m */; };
 		826CD4422194C8A100A0FB37 /* SudokuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4412194C8A100A0FB37 /* SudokuUITests.m */; };
+		826CD4532194C8BB00A0FB37 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4502194C8BB00A0FB37 /* Node.m */; };
+		826CD4542194C8BB00A0FB37 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4522194C8BB00A0FB37 /* LinkedList.m */; };
+		826CD4572194C90C00A0FB37 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4562194C90C00A0FB37 /* Stack.m */; };
+		826CD45A2194C9D800A0FB37 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4592194C9D800A0FB37 /* Queue.m */; };
+		826CD45D2194CDF500A0FB37 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD45C2194CDF500A0FB37 /* Box.m */; };
+		826CD4622198A38300A0FB37 /* SudokuBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4612198A38300A0FB37 /* SudokuBoard.m */; };
+		826CD4642198C61F00A0FB37 /* EasyPuzzle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 826CD4632198C61F00A0FB37 /* EasyPuzzle.txt */; };
+		826CD4662198D22200A0FB37 /* SudokuSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 826CD4652198D22200A0FB37 /* SudokuSolver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82015EB921CAF72D00B5F105 /* HardPuzzle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HardPuzzle.txt; sourceTree = "<group>"; };
+		82015EBB21CAF78900B5F105 /* AI Escargot Puzzle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AI Escargot Puzzle.txt"; sourceTree = "<group>"; };
+		82015EC321CDEB6900B5F105 /* MedPuzzle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MedPuzzle.txt; sourceTree = "<group>"; };
 		826CD4152194C8A000A0FB37 /* Sudoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		826CD4182194C8A000A0FB37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		826CD4192194C8A000A0FB37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +71,21 @@
 		826CD43D2194C8A100A0FB37 /* SudokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		826CD4412194C8A100A0FB37 /* SudokuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudokuUITests.m; sourceTree = "<group>"; };
 		826CD4432194C8A100A0FB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826CD44F2194C8BB00A0FB37 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		826CD4502194C8BB00A0FB37 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		826CD4512194C8BB00A0FB37 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		826CD4522194C8BB00A0FB37 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		826CD4552194C8E400A0FB37 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		826CD4562194C90C00A0FB37 /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		826CD4582194C9CC00A0FB37 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		826CD4592194C9D800A0FB37 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		826CD45B2194CD5800A0FB37 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		826CD45C2194CDF500A0FB37 /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		826CD45E2196177F00A0FB37 /* SudokuBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudokuBoard.h; sourceTree = "<group>"; };
+		826CD4612198A38300A0FB37 /* SudokuBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SudokuBoard.m; path = ../SudokuBoard.m; sourceTree = "<group>"; };
+		826CD4632198C61F00A0FB37 /* EasyPuzzle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EasyPuzzle.txt; sourceTree = "<group>"; };
+		826CD4652198D22200A0FB37 /* SudokuSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudokuSolver.m; sourceTree = "<group>"; };
+		826CD4672198D22F00A0FB37 /* SudokuSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudokuSolver.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +148,24 @@
 				826CD4272194C8A100A0FB37 /* Main.storyboard */,
 				826CD42A2194C8A100A0FB37 /* Info.plist */,
 				826CD42B2194C8A100A0FB37 /* main.m */,
+				826CD45E2196177F00A0FB37 /* SudokuBoard.h */,
+				826CD4612198A38300A0FB37 /* SudokuBoard.m */,
+				826CD4652198D22200A0FB37 /* SudokuSolver.m */,
+				826CD4672198D22F00A0FB37 /* SudokuSolver.h */,
+				826CD4512194C8BB00A0FB37 /* LinkedList.h */,
+				826CD4632198C61F00A0FB37 /* EasyPuzzle.txt */,
+				82015EC321CDEB6900B5F105 /* MedPuzzle.txt */,
+				82015EB921CAF72D00B5F105 /* HardPuzzle.txt */,
+				82015EBB21CAF78900B5F105 /* AI Escargot Puzzle.txt */,
+				826CD45B2194CD5800A0FB37 /* Box.h */,
+				826CD4552194C8E400A0FB37 /* Stack.h */,
+				826CD45C2194CDF500A0FB37 /* Box.m */,
+				826CD4582194C9CC00A0FB37 /* Queue.h */,
+				826CD4592194C9D800A0FB37 /* Queue.m */,
+				826CD4562194C90C00A0FB37 /* Stack.m */,
+				826CD4522194C8BB00A0FB37 /* LinkedList.m */,
+				826CD44F2194C8BB00A0FB37 /* Node.h */,
+				826CD4502194C8BB00A0FB37 /* Node.m */,
 				826CD42D2194C8A100A0FB37 /* Sudoku.entitlements */,
 			);
 			path = Sudoku;
@@ -249,6 +296,10 @@
 				826CD4262194C8A100A0FB37 /* Assets.xcassets in Resources */,
 				826CD41E2194C8A000A0FB37 /* Actions.sks in Resources */,
 				826CD4292194C8A100A0FB37 /* Main.storyboard in Resources */,
+				826CD4642198C61F00A0FB37 /* EasyPuzzle.txt in Resources */,
+				82015EBA21CAF72D00B5F105 /* HardPuzzle.txt in Resources */,
+				82015EBC21CAF78900B5F105 /* AI Escargot Puzzle.txt in Resources */,
+				82015EC421CDEB6A00B5F105 /* MedPuzzle.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826CD4622198A38300A0FB37 /* SudokuBoard.m in Sources */,
+				826CD45D2194CDF500A0FB37 /* Box.m in Sources */,
+				826CD4542194C8BB00A0FB37 /* LinkedList.m in Sources */,
+				826CD4572194C90C00A0FB37 /* Stack.m in Sources */,
+				826CD4532194C8BB00A0FB37 /* Node.m in Sources */,
 				826CD4242194C8A000A0FB37 /* ViewController.m in Sources */,
+				826CD4662198D22200A0FB37 /* SudokuSolver.m in Sources */,
 				826CD4212194C8A000A0FB37 /* GameScene.m in Sources */,
 				826CD42C2194C8A100A0FB37 /* main.m in Sources */,
 				826CD41A2194C8A000A0FB37 /* AppDelegate.m in Sources */,
+				826CD45A2194C9D800A0FB37 /* Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

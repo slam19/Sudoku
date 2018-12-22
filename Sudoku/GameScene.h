@@ -7,7 +7,8 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "SudokuSolver.h"
 
-@interface GameScene : SKScene
+@interface GameScene : SKScene <SudokuSolverDelegate>
 
 @end
